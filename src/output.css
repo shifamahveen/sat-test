@@ -672,6 +672,86 @@ video {
   left: 2.5rem;
 }
 
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.bottom-\[2px\] {
+  bottom: 2px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.top-\[45\%\] {
+  top: 45%;
+}
+
+.top-\[55\%\] {
+  top: 55%;
+}
+
+.top-\[85\%\] {
+  top: 85%;
+}
+
+.top-3\/4 {
+  top: 75%;
+}
+
+.bottom-\[60px\] {
+  bottom: 60px;
+}
+
+.bottom-\[65px\] {
+  bottom: 65px;
+}
+
+.bottom-\[70px\] {
+  bottom: 70px;
+}
+
+.bottom-\[10px\] {
+  bottom: 10px;
+}
+
+.-bottom-4 {
+  bottom: -1rem;
+}
+
+.-bottom-10 {
+  bottom: -2.5rem;
+}
+
+.-bottom-0 {
+  bottom: -0px;
+}
+
+.-bottom-\[2px\] {
+  bottom: -2px;
+}
+
+.bottom-\[20px\] {
+  bottom: 20px;
+}
+
+.-bottom-\[20px\] {
+  bottom: -20px;
+}
+
+.-bottom-\[80px\] {
+  bottom: -80px;
+}
+
+.-bottom-\[180px\] {
+  bottom: -180px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -1579,6 +1659,10 @@ video {
     left: 4rem;
   }
 
+  .sm\:top-1\/2 {
+    top: 50%;
+  }
+
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -1639,6 +1723,10 @@ video {
 
   .md\:left-auto {
     left: auto;
+  }
+
+  .md\:bottom-\[70px\] {
+    bottom: 70px;
   }
 
   .md\:col-span-1 {
@@ -1762,6 +1850,14 @@ video {
     left: 4rem;
   }
 
+  .lg\:bottom-\[85px\] {
+    bottom: 85px;
+  }
+
+  .lg\:top-auto {
+    top: auto;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1786,6 +1882,10 @@ video {
 
   .xl\:left-32 {
     left: 8rem;
+  }
+
+  .xl\:bottom-\[85px\] {
+    bottom: 85px;
   }
 
   .xl\:block {
